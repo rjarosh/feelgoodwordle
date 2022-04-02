@@ -15457,7 +15457,7 @@ function shakeTiles(tiles) {
 
 function checkWinLose(guess, tiles) {
   if (guess !== targetWord) {
-    showAlert("You're a winner every day.", 5000)
+    showAlert("You're a winner every day.", 15000)
     danceTiles(tiles)
     stopInteraction()
     return
